@@ -9,6 +9,15 @@ class  TTexts {
   static const String appName = "T-Store";
   static const String tContinue = "Продолжить";
 
+  // -- OnBoarding Texts
+  static const String onBoardingTitle1 = "Выберите товар";
+  static const String onBoardingTitle2 = "Выберите способ оплаты";
+  static const String onBoardingTitle3 = "Доставка до двери";
+
+  static const String onBoardingSubTitle1 = "Добро пожаловать - Ваш идеальный подарок ждет вас!";
+  static const String onBoardingSubTitle2 = "Для оплаты выберите Свой способ оплаты - Ваше Удобство, наш приоритет!";
+  static const String onBoardingSubTitle3 = "От нашего порогамагазина до Вашего праздника - быстрая, безопасная доставка!";
+
   // -- Authentication Forms
   static const String firstName = "Имя";
   static const String lastName = "Фамилия";
@@ -29,4 +38,27 @@ class  TTexts {
   static const String verificationCode = "код подтверждения";
   static const String resendEmail = "Повторно отправить Email";
   static const String resendEmailIn = "Повторно отправить email в";
+
+  // -- Authentication Headings
+  static const String loginTitle = "С возвращением,";
+  static const String loginSubTitle = "Откройте для себя безграничный выбор и непревзойденное удобство.";
+  static const String signupTitle = "Давайте создадим вашу учетную запись";
+  static const String forgetPasswordTitle = "Забыл пароль";
+  static const String forgetPasswordSubTitle = "Не волнуйтесь, иногда люди тоже могут забыть, введите свой адрес электронной почты, и мы вышлем вам ссылку для сброса пароля.";
+  static const String changeYourPasswordTitle = "Пароль отправлен на Email для сброса";
+  static const String changeYourPasswordSubTitle = "Безопасность Вашей учетной записи наша безопасность! Мы отправили Вам ссылку, чтобы безопасно сменить пароль и сохранить Вашу учетную запись защищенной.";
+  static const String confirmEmail = "Подтвердите ваш email!";
+  static const String confirmEmailSubTitle = "Поздравляю! Ваша учетная запись ждет вас: Подтвердите свой адрес электронной почты, чтобы начать совершать покупки и окунуться в мир непревзойденных скидок и персонализированных предложений.";
+  static const String emailNotReceivedMessage = "Не получили электронное письмо? Проверьте свой почтовый ящик или отправьте его повторно.";
+  static const String yourAccountCreatedTitle = "Ваша учетная запись успешно создана!";
+  static const String yourAccountCreatedSubTitle = "Добро пожаловать в Ваш праздник: Ваша учетная запись создана, дайте волю фантазии в онлайн-покупоках!";
+
+
+  // -- Product
+  static const String popularProducts = "Популярное";
+
+  // -- Home
+  static const String homeAppbarTitle = "Хороший день чтобы закупиться к празднику";
+  static const String homeAppbarSubTitle = "Taimoor Sikander";
+
 }
